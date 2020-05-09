@@ -1,0 +1,16 @@
+{
+  "name": "test join and create team",
+  "description": "",
+  "version": "1",
+  "manifest_version": 2,
+  "background": {
+    "persistent": false,
+    "page": "src/background.html"
+  },
+  "browser_action": {
+    "default_popup": "src/popup.html"
+  },
+  "permissions": ["identity", "identity.email"],
+  "content_security_policy": "script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'"
+  //   "key": "AIzaSyCJYc-PMIXdQxE2--bQI6Z1FGMKwMulEyc"
+}
