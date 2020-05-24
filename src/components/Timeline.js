@@ -68,9 +68,7 @@ export default class Timeline extends Component {
     });
   };
   createLeftBranch = (innerHTML, time, update) => {
-    {
-      /* whole thing event left */
-    }
+    /* whole thing event left */
     let newElement = (
       <div class="timeline-event">
         <div class="card timeline-content">
