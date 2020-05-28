@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page is set up correctly 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-content blue-grey-text"
+    id="card-content"
+  >
+    <span
+      className="blue-grey-text card-title"
+    >
+      
+      <span
+        className="badge"
+      >
+        Team Code: 
+        
+      </span>
+    </span>
+  </div>
+  <div
+    className="card-tabs"
+  >
+    <ul
+      className="tabs tabs-fixed-width"
+    >
+      <li
+        className="tab"
+      >
+        <a
+          href="#teamMembers"
+        >
+          Team Members
+        </a>
+      </li>
+      <li
+        className="tab"
+      >
+        <a
+          href="#timeline"
+        >
+          Timeline
+        </a>
+      </li>
+      <li
+        className="tab"
+      >
+        <a
+          href="#charts"
+        >
+          Charts
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="card-content grey lighten-4"
+    id="card-content"
+  >
+    <div
+      id="teamMembers"
+    >
+      <ul
+        className="collection"
+      />
+    </div>
+    <div
+      id="timeline"
+    >
+      <div>
+        <div
+          class="container"
+        >
+          <div
+            class="timeline"
+            id="timeline"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      id="charts"
+    >
+      <div
+        chartData={
+          Object {
+            "datasets": Array [
+              Object {
+                "backgroundColor": "rgba(11, 113, 126, 0.7)",
+                "data": Array [
+                  10,
+                  20,
+                  5,
+                  8,
+                  10,
+                ],
+                "label": "My Contributions",
+                "type": "bar",
+              },
+              Object {
+                "backgroundColor": Array [
+                  "rgba(255,99,132,0.6)",
+                  "rgba(54,162,235,0.6)",
+                  "rgba(255,206,86,0.6)",
+                  "rgba(75,192,192,0.6)",
+                  "rgba(153,102,255,0.6)",
+                ],
+                "data": Array [
+                  30,
+                  40,
+                  50,
+                  60,
+                  20,
+                ],
+                "label": "Total Contributions",
+                "type": "bar",
+              },
+            ],
+            "labels": Array [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+            ],
+          }
+        }
+        className="chart"
+        id="chart"
+      />
+    </div>
+  </div>
+</div>
+`;

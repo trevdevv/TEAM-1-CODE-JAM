@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing navigation bar 1`] = `
+<div>
+  <nav
+    id="nav-background"
+  >
+    <div
+      className="nav-wrapper"
+    >
+      <a
+        className="brand-logo"
+        href="#"
+      >
+        Team 1
+      </a>
+      <ul
+        className="right"
+      >
+        <li>
+          <a
+            href="#"
+          >
+            About
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+`;
